@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+body {
+    background: linear-gradient(180deg, #363635 75.56%, #574AE2 100%); mix-blend-mode: normal;
+
+    font-family: 'Archivo', sans-serif;
+    /*no entendí para que funciona lo del porcentaje*/
+    font-size: 100%;
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color:black
+}
+
+#parrafoA {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.8em;
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color:white
+}
+
+#parrafoB {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.8em;
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color:#F0F0F0
+}
+
+#parrafoC {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.8em;
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color:white
+}
+
+#parrafoD {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.8em;
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color:#F0F0F0
+}
+@font-face {
+    font-family: miFuente;
+    src: url(../fuente/miFuente.ttf);
+    font-weight:100;
+    
+}
+
+h1{
+    font-family: miFuente;
+    font-size: 8.125em;
+    font-weight: 100;
+    color: #DBFF76;
+}
+
+a {
+    
+    text-decoration: none;
+    /*el valor none quita la decoración de texto. Ej el subrayado*/
+    font-size: 2.387em;
+    font-weight: 800;
+    color:white;
+    
+}
+
+#vinculo:hover{
+    /*solo me toma el click cuando lo hago con la ruedita del mouse*/
+    color: black;
+    background-color: #DBFF76;
+}
+
+#vinculo2:hover{
+    /*solo me toma el click cuando lo hago con la ruedita del mouse*/
+    color: black;
+    background-color: #DBFF76;
+}
+
+#mail {
+    font-weight: 100;
+    text-transform: lowercase;
+    /*transforma el texto en mayúscula*/
+    font-size: 1.5em;
+    color: #DBFF76;
+}
+
+@media (max-width: 768px) {
+    body {font-size: 50%;}
+}
