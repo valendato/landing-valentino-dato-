@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #363635 75.56%, #574AE2 100%); mix-blend-mode: normal;
+    
+    font-family: 'Archivo', sans-serif;
+    /*no entendí para que funciona lo del porcentaje*/
+    font-size: 60%;
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color:black  
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    /*NO SUPE ACOMODAR EL TAMAÑO Y AJUSTAR LA IMAGEN AL MARGEN*/
+    background-image: url(../recursos/todo.png);
+    background-repeat: no-repeat;
+}
+
+.columnas{
+    justify-content: space-between;
+    display:flex;
+    padding: 1em;
+    width: 95%;
+}
+
+.columnas2{
+    justify-content: space-between;
+    display:flex;
+    padding: 1em;
+    width: 94.5%;
+}
+
+p{font-family: 'Archivo', sans-serif;
+    font-size: 1.8em;
+    font-weight: 300;
+    color:white}
+
+/*clase: anotación anterior al "id(?" que lleva punto para llamar la propiedad mas de una vez*/
+.parrafos {
+    /*el valor por defecto es de 16px
+    90% de 16px*/
+    color:#F0F0F0
+}
+
+@font-face {
+    font-family: miFuente;
+    src: url(../fuente/miFuente.ttf);
+    font-weight:100;
+    
+}
+
+h1{
+    font-family: miFuente;
+    font-size: 8.125em;
+    font-weight: 100;
+    color: #DBFF76;
+}
+
+a {
+    
+    text-decoration: none;
+    /*el valor none quita la decoración de texto. Ej el subrayado*/
+    font-size: 2.387em;
+    font-weight: 800;
+    color:white;
+    
+}
+
+#vinculo:hover{
+    color: black;
+    background-color: #DBFF76;
+}
+
+#vinculo2:hover{
+    color: black;
+    background-color: #DBFF76;
+}
+
+/*NO SE SI EXISTE O SI ES VÁLIDO PONER "a1"*/
+a1 {
+    
+    text-decoration: none;
+    font-weight: 100;
+    text-transform: lowercase;
+    /*transforma el texto en mayúscula*/
+    font-size: 1.5em;
+    color: #DBFF76;
+ 
+}
+
+
+@media (max-width: 768px) {
+    body {font-size: 50%;}
+}
